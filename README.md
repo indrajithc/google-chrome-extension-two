@@ -1,4 +1,8 @@
-### First Google Chrome Extension
+### Second Google Chrome Extension
+
+> Second google chrome extension, used `content_scripts` to change tag/component color in a particular website.
+> **Inject Scripts** are Content Scripts can be programmatically or declaratively injected to the target website, this technique used in here, for more information about inject scripts watch the video,
+> [![Alt text](https://img.youtube.com/vi/laLudeUmXHM/maxresdefault.jpg)](https://www.youtube.com/watch?v=laLudeUmXHM)
 
 contents copied from https://www.sitepoint.com/create-chrome-extension-10-minutes-flat/
 
