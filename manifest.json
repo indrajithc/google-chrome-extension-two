@@ -7,5 +7,22 @@
     "128": "./assets/icon/icon-128.png",
     "48": "./assets/icon/icon-48.png",
     "16": "./assets/icon/icon-16.png"
-  }
+  },
+  "page_action": {
+    "default_icon": "./assets/icon/icon-48.png",
+    "default_popup": "popup.html",
+    "default_title": "Study App 2"
+  },
+  "background": {
+    "scripts": ["eventPage.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://developer.chrome.com/*"],
+      "js": ["./assets/js/jquery.min.js", "content.js"],
+      "css": ["content.css"]
+    }
+  ],
+  "permissions": ["tabs", "https://developer.chrome.com/*"]
 }
